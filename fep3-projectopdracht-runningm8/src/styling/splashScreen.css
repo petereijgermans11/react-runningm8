@@ -1,0 +1,61 @@
+.link {
+  z-index: 1;
+  height: 100%;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.link h1 {
+  font-size: 3em;
+  font-family: "Norican", cursive;
+}
+
+.ripple, .ripple:before, .ripple:after {
+  display: block;
+  border-radius: 2px;
+  width: 2px;
+  height: 2px;
+  -webkit-animation: ripple 6s infinite ease-out;
+  will-change: transform;
+  -webkit-animation-delay: 0.5s;
+}
+
+.ripple {
+  position: absolute;
+  z-index: -1;
+  top: 40vh;
+  left: 10vw;
+}
+
+.ripple:before, .ripple:after {
+  content: "";
+  position: absolute;
+}
+
+.ripple:before {
+  -webkit-animation-delay: 1s;
+  top: 10vh;
+  left: 40vw;
+}
+
+.ripple:after {
+  -webkit-animation-delay: 1.5s;
+  top: 0;
+  left: 80vw;
+}
+
+@keyframes ripple {
+  0% {
+    box-shadow: 0 0 0 0 transparent, 0 0 0 0 transparent, 0 0 0 0 transparent, 0 0 0 0 transparent;
+  }
+  15% {
+    box-shadow: 0 0 0 0 #0b2038, 0 0 0 0 rgba(255, 255, 255, 0.4), 0 0 0 0 #0b2038, 0 0 0 0 rgba(0, 0, 0, 0.08);
+  }
+  100% {
+    box-shadow: 0 0 40px 200px #0b2038, 0 0 10px 210px transparent, 0 0 30px 220px #0b2038, 0 0 5px 230px transparent;
+  }
+}
+
+/*# sourceMappingURL=splashScreen.css.map */

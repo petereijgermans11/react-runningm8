@@ -1,0 +1,88 @@
+.mapContainer{
+  height: 90vh;
+  width: 100vw;
+  position: relative;
+  top: 0;
+  padding: 20px;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  .leaflet-container{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+
+    left: 0;
+    right: 0;
+    z-index: 0;
+  }
+}
+
+.sessionContainer{
+  min-width: 400px;
+  background-color: rgba(40,0,255,0.6 );
+  z-index: 0;
+  padding: 10px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.sessionControlContainer{
+  background-color: rgba(40,0,255,0.6 );
+  z-index: 0;
+  padding: 10px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+.mapSchemaContainer{
+  width: 100%;
+  min-width: 300px;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+  align-items: center;
+}
+.exerciseText{
+  font-size: 18px;
+}
+.informationContainer{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+}
+.detailsContainer{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.detail{
+  padding: 10px;
+  text-align: center;
+
+  .label{
+    padding: 0;
+    margin: 0;
+  }
+  .value{
+    padding-top: 0;
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .sessionContainer{
+    min-width: 90%;
+  }
+}

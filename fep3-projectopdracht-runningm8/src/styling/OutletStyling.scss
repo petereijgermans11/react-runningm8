@@ -1,0 +1,43 @@
+.firstUseContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.screenCount{
+  height: 15vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 2;
+}
+.appContainer{
+  height: 100vh;
+  min-height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.appContainer::-webkit-scrollbar{
+  display: none;
+}
+.appInnerContainer{
+  height: 90vh;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}

@@ -1,0 +1,192 @@
+{
+  "session": {
+    "start": "Einheit gestartet",
+    "pause": "Einheit pausiert",
+    "resume": "Einheit wieder aufgenommen",
+    "stop": "Einheit abgebrochen"
+  },
+  "exercises": {
+    "next": "nächste Übung",
+    "walking": "laufen",
+    "jogging": "joggen",
+    "running": "rennen",
+    "sprinting": "sprinten",
+    "pause": "Pause",
+    "minute": "Minute",
+    "minutes": "Minuten"
+  },
+  "firstUse": {
+    "welcome": {
+      "title":  "Willkommen bei RunningM8!",
+      "sub": "Danke, dass Sie diese App verwenden. Bitte lassen Sie uns etwas wissen, damit wir die App für Sie konfigurieren können."
+    },
+    "gender": {
+      "title": "Was ist dein Geschlecht?"
+    },
+    "weight": {
+      "title": "Wie viel wiegen Sie?"
+    },
+    "height": {
+      "title": "Wie groß sind Sie?"
+    },
+    "goal": {
+      "title": "Was ist dein Ziel?"
+    }
+  },
+  "modals": {
+    "goalChange": {
+      "title": "Was ist dein neues Ziel?",
+      "type": "Zieltyp",
+      "goal": "Ziel"
+    },
+    "edit": {
+      "title": "Bearbeiten Sie Ihre persönlichen Daten"
+    },
+    "wipe": {
+      "title": "Möchten Sie alle Daten löschen?"
+    },
+    "login": {
+      "title": "Anmelden!",
+      "subTitle": "Anmelden mit Email Adresse",
+      "or": "Oder...",
+      "signIn": "Melden Sie sich an mit"
+    },
+    "register": {
+      "title": "Registrieren",
+      "subTitle": "Registrieren mit E-Mail Adresse",
+      "signUp": "Registrieren mit"
+    },
+    "logout": {
+      "title": "Do you want to log out?"
+    }
+  },
+  "home": {
+    "title": "Willkommen zurück Läufer!",
+    "goalTitle": "Wöchentlichen Ziel Fortschritt:",
+    "left": "übrig",
+    "completed": "abgeschlossen"
+
+  },
+  "schemas":{
+    "my": {
+      "title": "Meine Schemas"
+    },
+    "others": {
+      "title": "Online Schemas"
+    },
+    "workouts": {
+      "title": "Trainingsverlauf"
+    },
+    "noItems": "Es sind keine Artikel vorhanden...",
+    "login": "Melden Sie sich an, um andere Schemas zu sehen",
+    "workoutTime": "Trainingszeit",
+    "title": "Ändern Sie mich zu Personalisieren",
+    "sharing": "Teilen",
+    "difficulty": "Schwierigkeit",
+    "exercises": "Übungen",
+    "totalTime": "Gesamtzeit",
+    "published": "Veröffentlicht",
+    "private": "Privat",
+    "history": {
+      "sessionDetails": "Sitzungsdetails",
+      "timeDetails": "Zeitangaben",
+      "distanceDetails": "Entfernungsdetails",
+      "workoutDetails": "Trainingsdetails",
+      "sessionDate": "Sitzungsdatum",
+      "sessionStart": "Sitzungsbeginn",
+      "sessionEnd": "Sitzungsende",
+      "totalDistance": "Gesamtstrecke",
+      "exercisesDone": "Übungen erledigt",
+      "exerciseTime": "Übungszeit",
+      "takenRoute": "Weg genommen"
+    }
+  },
+  "analysis": {
+    "day": "Tag",
+    "month": "Monat",
+    "year": "Jahr",
+    "noData": "Keine Daten verfügbar"
+  },
+  "profile": {
+    "subText": "\nMelden Sie sich an oder registrieren Sie sich für die Online-Sicherung.",
+    "noDistance": "No distance available.",
+    "noTime": "No time available.",
+    "noSpeed": "No speed available.",
+    "noWorkouts": "No workouts done.",
+    "titles": {
+      "profile": "Benutzerprofil",
+      "personal": "Persönliche Informationen",
+      "total": "GesamtFortschritt",
+      "average": "Durchschnittlicher Fortschritt",
+      "records": "Meine Aufzeichnungen",
+      "weekly": "Weekly Progress"
+    }
+  },
+  "common": {
+    "distance": "distanz",
+    "duration": "dauer",
+
+    "Distance": "Distanz",
+    "Duration": "Dauer",
+    "Date": "Datum",
+
+    "averageSpeed": "Durchschnitts geschwindigkeit",
+    "Speed": "Geschwindigkeit",
+    "Time": "Zeit",
+    "totalTime": "Gesamtzeit",
+    "totalWorkoutTime": "Gesamte Trainingszeit",
+    "workouts": "Insgesamt Workouts",
+
+    "Exercises": "Übungen",
+
+    "walking": "laufen",
+    "jogging": "joggen",
+    "running": "rennen",
+    "sprinting": "sprinten",
+    "pause": "Pause",
+
+    "easy": "Leicht",
+    "medium": "Mittel",
+    "hard": "Hart",
+
+    "gender": "Geschlecht",
+    "male": "Man",
+    "female": "Frau",
+
+    "name": "Name",
+    "email": "Email Adresse",
+    "password": "Passwort",
+    "anonymous": "Anonymer Benutzer",
+    "noEmail": "Keine E-Mail verfügbar.",
+    "noExercise": "No Exercise Selected",
+    "weightUnit": "Gewichtseinheit",
+    "weight": "Gewicht",
+    "heightUnit": "Höheneinheit",
+    "height": "Höhe",
+    "Altitude": "Altitude",
+    "lbs": "Pfund",
+    "kg": "KG",
+    "km": "KM",
+    "minutes": "minuten",
+    "cm": "cm",
+    "inch": "inch",
+    "language": "language"
+
+  },
+  "buttons": {
+    "login": "Anmelden",
+    "register": "Registrieren",
+    "wipeData": "Daten löschen",
+    "edit": "Bearbeiten",
+    "cancel": "Abbrechen",
+    "logout": "Ausloggen",
+    "Speed": "Geschwindigkeit",
+    "continue": "Fortsetzen",
+    "confirm": "Bestätigen",
+    "changeGoal": "Ziel ändern",
+    "start": "Start",
+    "pause": "Pause",
+    "resume": "Resume",
+    "stop": "Stop"
+  }
+}

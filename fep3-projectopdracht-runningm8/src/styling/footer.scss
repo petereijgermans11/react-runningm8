@@ -1,0 +1,52 @@
+.footerContainer{
+  max-height: calc(10vh - 2px);
+  height:calc(10vh - 2px);
+  width: 100vw;
+  min-width: 350px;
+  max-width: calc(100vw - 2px);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: relative;
+  bottom: 0;
+  border-top: 2px solid rgba(255,125,255,0.8);
+
+  h1{
+    color: rgba(255,125,255,0.4);;
+  }
+}
+.footerButton{
+  height: calc(10vh - 5px);
+  width: 19vw;
+  border: none;
+
+  background-color: #0b2038;
+  color: rgba(255,255,255,0.8);
+}
+.rightButton{
+  border: none;
+}
+.leftButton{
+  border: none;
+}
+.footerSubContainer{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+.footerMiddleButton{
+  height: 10vh;
+  width: 6rem;
+  color: white;
+
+  border-radius: 50px;
+  z-index:1;
+  position: relative;
+  background-color: rgba(255,125,255,0.3);
+  border: 2px solid rgba(255,125,255,1);
+}

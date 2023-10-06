@@ -1,0 +1,41 @@
+:root {
+  --toastify-main-color: rgba(255,125,255,1);
+  --toastify-main-body: #0b2038;
+  --toastify-color-light: var( --toastify-main-body);
+  --toastify-color-dark: var( --toastify-main-body);
+  --toastify-color-info:  var( --toastify-main-body);
+  --toastify-color-success:  var( --toastify-main-body);
+  --toastify-color-warning:  var( --toastify-main-body);
+  --toastify-color-error:  var( --toastify-main-body);
+  --toastify-color-transparent: rgba(255, 255, 255, 0.7);
+
+  --toastify-icon-color-info: var( --toastify-main-color);
+  --toastify-icon-color-success:  var( --toastify-main-color);
+  --toastify-icon-color-warning:  var( --toastify-main-color);
+  --toastify-icon-color-error:  var( --toastify-main-color);
+
+  --toastify-toast-width: 320px;
+  --toastify-toast-background: #fff;
+  --toastify-toast-min-height: 64px;
+  --toastify-toast-max-height: 800px;
+  --toastify-font-family: sans-serif;
+  --toastify-z-index: 9999;
+
+  --toastify-text-color-light: #FFF;
+  --toastify-text-color-dark: #FFF;
+
+  //Used only for colored theme
+  --toastify-text-color-info: var(--toastify-text-color-light);
+  --toastify-text-color-success: var(--toastify-text-color-light);
+  --toastify-text-color-warning: var(--toastify-text-color-light);
+  --toastify-text-color-error: var(--toastify-text-color-light);
+
+  --toastify-spinner-color: var(--toastify-main-color);
+  --toastify-spinner-color-empty-area: var(--toastify-main-body);
+
+
+  --toastify-color-progress-info: var(--toastify-main-color);
+  --toastify-color-progress-success: var(--toastify-main-color);
+  --toastify-color-progress-warning: var(--toastify-main-color);
+  --toastify-color-progress-error: var(--toastify-main-color);
+}

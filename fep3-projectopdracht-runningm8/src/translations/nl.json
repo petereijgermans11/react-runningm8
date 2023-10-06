@@ -1,0 +1,195 @@
+{
+  "session": {
+    "start": "Trainingssessie gestart",
+    "pause": "Trainingssessie gepauzeerd",
+    "resume": "Trainingssessie hervat",
+    "stop": "Trainingssessie gestopt"
+  },
+  "exercises": {
+    "next": "volgende oefening",
+    "walking": "lopen",
+    "jogging": "joggen",
+    "running": "rennen",
+    "sprinting": "sprinten",
+    "pause": "pauzeren",
+    "minute": "minuut",
+    "minutes": "minuten"
+  },
+  "firstUse": {
+    "welcome": {
+      "title":  "Welkom bij RunningM8!",
+      "sub": "Bedankt voor het gebruik van deze app. Laat ons je leren kennen, zodat we de app voor je kunnen configureren."
+    },
+    "gender": {
+      "title": "Wat is je geslacht?"
+    },
+    "weight": {
+      "title": "Wat is je gewicht?"
+    },
+    "height": {
+      "title": "Wat is je lengte?"
+    },
+    "goal": {
+      "title": "Wat is je doel?"
+
+    }
+  },
+  "modals": {
+    "goalChange": {
+      "title": "Wat is je nieuwe doel?",
+      "type": "Doel Type",
+      "goal": "Doel"
+    },
+    "edit": {
+      "title": "Wijzig je persoonlijke gegevens."
+    },
+    "wipe": {
+      "title": "Wil je alle gegevens verwijderen?"
+    },
+    "login": {
+      "title": "Aanmelden!",
+      "subTitle": "Aanmelden met email",
+      "or": "Of...",
+      "signIn": "Meld je aan met"
+    },
+    "register": {
+      "title": "Registreren",
+      "subTitle": "Registreren met email",
+      "signUp": "Registreer met"
+    },
+    "logout": {
+      "title": "Do you want to log out?"
+    }
+  },
+  "home": {
+    "title": "Welkom terug Renner!",
+    "goalTitle": "Wekelijkse doel voortgang:",
+    "left": "over",
+    "completed": "doel behaald"
+  },
+  "schemas":{
+    "my": {
+      "title": "Mijn Schemas"
+    },
+    "others": {
+      "title": "Andere Schemas"
+    },
+    "workouts": {
+      "title": "Trainingsgeschiedenis"
+    },
+    "noItems": "Er zijn geen schemas...",
+    "login": "Log in om andermands schemas te zien.",
+    "workoutTime": "Trainingstijd",
+    "title": "Verander mij om te Personaliseren",
+    "sharing": "Delen",
+    "difficulty": "Moeilijkheid",
+    "exercises": "Oefeningen",
+    "totalTime": "Totale Tijd",
+    "published": "Gepubliceerd",
+    "private": "Lokaal",
+    "history": {
+      "date": "Datum",
+
+      "sessionDetails": "Sessie Details",
+      "timeDetails": "Tijd Details",
+      "distanceDetails": "Afstand Details",
+      "workoutDetails": "Training Details",
+      "sessionDate": "Sessie Datum",
+      "sessionStart": "Sessie Start",
+      "sessionEnd": "Sessie Einde",
+      "totalDistance": "Totale Afstand",
+      "exercisesDone": "Oefeningen afgerond",
+      "exerciseTime": "Oefen tijd",
+      "takenRoute": "Genomen Route"
+    }
+  },
+  "analysis": {
+    "day": "Dag",
+    "month": "Maand",
+    "year": "Jaar",
+    "noData": "Geen gegevens beschikbaar"
+  },
+  "profile": {
+    "subText": "Log in of Registreer voor online backup.",
+    "noDistance": "No distance available.",
+    "noTime": "No time available.",
+    "noSpeed": "No speed available.",
+    "noWorkouts": "No workouts done.",
+    "titles": {
+      "profile": "Gebruikers profiel",
+      "personal": "Persoonlijke informatie",
+      "total": "Totale Progressie",
+      "average": "Gemiddelde Progressie",
+      "records": "Mijn records",
+      "weekly": "Weekly Progress"
+    }
+  },
+  "common": {
+    "distance": "afstand",
+    "duration": "looptijd",
+
+    "Distance": "Afstand",
+    "Duration": "Looptijd",
+    "Date": "Datum",
+    "noExercise": "No Exercise Selected",
+    "averageSpeed": "Gemiddelde snelheid",
+    "Speed": "Snelheid",
+    "Time": "Tijd",
+    "Altitude": "Altitude",
+    "totalTime": "Totale Tijd",
+    "totalWorkoutTime": "Totale Trainings Tijd",
+    "workouts": "Totaal aantal Workouts",
+
+
+    "Exercises": "Oefeningen",
+
+    "walking": "lopen",
+    "jogging": "joggen",
+    "running": "rennen",
+    "sprinting": "sprinten",
+    "pause": "pauzeren",
+
+    "Easy": "Makkelijk",
+    "Medium": "Gemiddeld",
+    "Hard": "Moeilijk",
+
+    "gender": "Geslacht",
+    "male": "Man",
+    "female": "Vrouw",
+
+    "name": "Naam",
+    "email": "Email",
+    "password": "Wachtwoord",
+    "anonymous": "Anonieme Gebruiker",
+    "noEmail": "Geen email beschikbaar.",
+
+    "weightUnit": "Gewichts eenheid",
+    "weight": "Gewicht",
+    "heightUnit": "Lengte eenheid",
+    "height": "Lengte",
+
+    "lbs": "lbs",
+    "kg": "Kg",
+    "km": "Km",
+    "minutes": "minuten",
+    "cm": "cm",
+    "inch": "inch",
+    "language": "language"
+  },
+  "buttons": {
+    "login": "Login",
+    "register": "Registreren",
+    "wipeData": "Wis gegevens",
+    "edit": "Wijzigen",
+    "cancel": "Annuleren",
+    "logout": "Uitloggen",
+    "Speed": "Snelheid",
+    "continue": "Doorgaan",
+    "confirm": "Bevestigen",
+    "changeGoal": "Verander Doel",
+    "start": "Start",
+    "pause": "Pause",
+    "resume": "Resume",
+    "stop": "Stop"
+  }
+}

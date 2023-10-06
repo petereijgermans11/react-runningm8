@@ -1,0 +1,247 @@
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal {
+  border-radius: 12px;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px rgba(255, 125, 255, 0.4) solid;
+  background-color: #0b2038;
+}
+
+.modalContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.modalForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.modalTitleContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.modalTitle {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.modalTextInput {
+  background-color: white;
+  color: #333333;
+  font-weight: 600;
+  width: 98%;
+  border-radius: 8px;
+  padding: 0.4rem;
+  font-size: 15px;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.modalHR {
+  width: 100%;
+}
+
+.sectionHR {
+  border-color: #AAAAAA;
+  width: 100%;
+}
+
+.itemHR {
+  width: 80%;
+  border-color: #666666;
+}
+
+.modalContentContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.modalContentSection {
+  width: 95%;
+  background-color: rgba(255, 125, 255, 0.1);
+  border-radius: 12px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.sectionTitle {
+  width: 50%;
+  text-align: center;
+  font-size: 14px;
+}
+
+.sectionValue {
+  font-size: 28px;
+}
+
+.flexVTScrollContainer {
+  max-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-y: scroll;
+}
+
+.flexVTScrollContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.itemContainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.itemNumber {
+  padding: 10px;
+}
+
+.sectionSelectBox {
+  appearance: none;
+  width: 5rem;
+  padding: 4px;
+  margin: 5px auto;
+  text-align: center;
+  border-radius: 6px;
+  cursor: pointer;
+  display: block;
+  border: none;
+}
+.sectionSelectBox .option {
+  text-align: center;
+  background-color: rgba(85, 50, 120, 0.8);
+  color: white;
+  border: none;
+}
+.sectionSelectBox .optionEnd {
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.modalNumberInput {
+  width: 3rem;
+  margin-right: 5px;
+  padding: 3px;
+  text-align: center;
+  border-radius: 6px;
+}
+
+.modalNumberInput::-webkit-outer-spin-button,
+.modalNumberInput::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.modalItemSubContent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.editButton {
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 10px;
+}
+
+.addButton {
+  background-color: rgba(255, 125, 255, 0.2);
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 12px;
+  margin: 5px 2px 5px 2px;
+  padding: 10px;
+}
+
+.buttonWiden {
+  width: 100%;
+}
+
+.modalButtonContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.flexHZContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexVTContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.flexVTContainer .leaflet-container {
+  overflow: hidden;
+}
+
+.modalMap {
+  height: 30vh;
+  width: 100%;
+  overflow: hidden;
+  min-width: 30vw;
+  border-radius: 6px;
+}
+
+.padder {
+  margin: 5px;
+}
+
+@media screen and (max-width: 450px) {
+  .modalMap {
+    height: 30vh;
+    width: 80vw;
+    overflow: hidden;
+    min-width: 30vw;
+    border-radius: 6px;
+  }
+}
+.padderTwo {
+  padding: 20px;
+}
+
+/*# sourceMappingURL=modalStyling.css.map */

@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Running route and exercise tracking application."
+    />
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link media="screen" href="https://fonts.googleapis.com/css?family=Norican:400,700&display=swap" rel="stylesheet">
+    <link  media="screen"
+            rel="stylesheet"
+            href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+            integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+            crossorigin=""
+    />
+    <script defer src="https://kit.fontawesome.com/1ac53e691e.js" crossorigin="anonymous"></script>
+    <script defer src="./app.serviceworker.js"></script>
+    <title>RunningM8!</title>
+
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this application.</noscript>
+    <div class="installCard">
+      <p>You now can also choose to install this great application.</p>
+      <button>Install Me</button>
+    </div>
+    <div id="root"></div>
+  </body>
+  <style>
+    .installCard {
+      display: none;
+      background-color: greenyellow;
+      text-align: center;
+      margin: 10px;
+      padding: 10px;
+      font-size: 1.5rem;
+    }
+  </style>
+</html>

@@ -1,0 +1,197 @@
+{
+  "session": {
+    "start": "Session started",
+    "pause": "Session paused",
+    "resume": "Session resumed",
+    "stop": "Session stopped"
+  },
+  "exercises": {
+    "next": "next exercise",
+    "walking": "walking",
+    "jogging": "jogging",
+    "running": "running",
+    "sprinting": "sprinting",
+    "pause": "pausing",
+    "minute": "minute of",
+    "minutes": "minutes of"
+  },
+  "firstUse": {
+    "welcome": {
+      "title":  "Welcome to RunningM8!",
+      "sub": "Thanks for using this app. Please let us know you a bit, so we can configure the app for you.",
+      "button": "Press to continue"
+    },
+    "gender": {
+      "title": "What is your gender?"
+    },
+    "weight": {
+      "title": "What is your weight?"
+    },
+    "height": {
+      "title": "What is your height?"
+    },
+    "goal": {
+      "title": "What is your goal?"
+
+    },
+    "confirm": "confirm"
+  },
+  "modals": {
+    "goalChange": {
+      "title": "What is your new goal?",
+      "type": "Goal Type",
+      "goal": "Goal"
+    },
+    "edit": {
+      "title": "Edit your personal information"
+    },
+    "wipe": {
+      "title": "Do you want to delete all data?"
+    },
+    "login": {
+      "title": "Sign In!",
+      "subTitle": "Sign in with email",
+      "or": "Or...",
+      "signIn": "Sign in with"
+    },
+    "register": {
+      "title": "Register",
+      "subTitle": "Sign up with email",
+      "signUp": "Sign up with"
+    },
+    "logout": {
+      "title": "Do you want to log out?"
+    }
+  },
+  "home": {
+    "title": "Welcome back Runner!",
+    "goalTitle": "Weekly goal Progression:",
+    "left": "left",
+    "completed": "completed"
+  },
+  "schemas":{
+    "my": {
+      "title": "My Schemas"
+    },
+    "others": {
+      "title": "Others Schemas"
+    },
+    "workouts": {
+      "title": "Workout History"
+    },
+    "noItems": "There are no items...",
+    "login": "Login to see others schemas",
+    "workoutTime": "Workout Time",
+    "title": "Change me to Personalize",
+    "sharing": "Sharing",
+    "difficulty": "Difficulty",
+    "exercises": "Exercises",
+    "totalTime": "Total Time",
+    "published": "Published",
+    "private": "Private",
+    "history": {
+      "date": "Date",
+
+      "sessionDetails": "Session Details",
+      "timeDetails": "Time Details",
+      "distanceDetails": "Distance Details",
+      "workoutDetails": "Workout Details",
+      "sessionDate": "Session Date",
+      "sessionStart": "Session Start",
+      "sessionEnd": "Session End",
+      "totalDistance": "Total Distance",
+      "exercisesDone": "Exercises Done",
+      "exerciseTime": "Exercise Time",
+      "takenRoute": "Taken Route"
+    }
+  },
+  "analysis": {
+    "day": "Day",
+    "month": "Month",
+    "year": "Year",
+    "noData": "No Data Available"
+  },
+  "profile": {
+    "subText": "Login or Register for online backup.",
+    "noDistance": "No distance available.",
+    "noTime": "No time available.",
+    "noSpeed": "No speed available.",
+    "noWorkouts": "No workouts done.",
+
+    "titles": {
+      "profile": "User Profile",
+      "personal": "Personal Info",
+      "total": "Total Progress",
+      "average": "Average Progress",
+      "records": "My Records",
+      "weekly": "Weekly Progress"
+    }
+  },
+  "common": {
+    "distance": "distance",
+    "duration": "duration",
+
+    "Distance": "Distance",
+    "Duration": "Duration",
+    "Date": "Date",
+
+    "averageSpeed": "Average Speed",
+    "Speed": "Speed",
+    "Time": "Time",
+    "totalTime": "Total Time",
+    "totalWorkoutTime": "Total Workout Time",
+    "workouts": "Total Workouts",
+
+
+    "Exercises": "Exercises",
+    "noExercise": "No Exercise Selected",
+    "walking": "walking",
+    "jogging": "jogging",
+    "running": "running",
+    "sprinting": "sprinting",
+    "pause": "pausing",
+
+    "easy": "Easy",
+    "medium": "Medium",
+    "hard": "Hard",
+
+    "gender": "Gender",
+    "male": "Male",
+    "female": "Female",
+
+    "name": "Name",
+    "email": "Email",
+    "password": "Password",
+    "anonymous": "Anonymous User",
+    "noEmail": "No email available.",
+
+    "weightUnit": "Weight Unit",
+    "weight": "Weight",
+    "heightUnit": "Height Unit",
+    "height": "Height",
+    "Altitude": "Altitude",
+    "lbs": "lbs",
+    "kg": "KG",
+    "km": "KM",
+    "minutes": "minutes",
+    "cm": "cm",
+    "inch": "inch",
+    "language": "language"
+  },
+  "buttons": {
+    "login": "Login",
+    "register": "Register",
+    "wipeData": "Wipe Data",
+    "edit": "edit",
+    "cancel": "Cancel",
+    "logout": "Log Out",
+    "Speed": "Speed",
+    "continue": "Press to continue",
+    "confirm": "confirm",
+    "changeGoal": "Change Goal",
+    "start": "Start",
+    "pause": "Pause",
+    "resume": "Resume",
+    "stop": "Stop"
+  }
+}
