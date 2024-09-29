@@ -1,7 +1,7 @@
 
 # Documentation and justification
 
-This app has been made with open source packages and software.\
+This PWA app has been made with open source packages and software.\
 Underneath is specified which packages and software has been used and why.
 
 ####main frameworks and packages
@@ -19,14 +19,14 @@ It is dynamic in the navigation itself as it comes with 2 components and multipl
 
 package names                          |version
 ---------------------------------------|------------------------
-react                                  | 17.0.2         
-react-dom                              | 17.0.2 
-react-router-dom                       | 6.2.1    
-react-scripts                          | 5.0.0                            
-typescript                             | 4.5.5 
-redux                                  | 4.1.2
-firebase                               | 9.6.6 
-sass                                   | 1.49.7 
+react                                  | 18.0.2         
+react-dom                              | 18.0.2 
+react-router-dom                       | 6.16.0    
+react-scripts                          | 5.0.1                            
+typescript                             | 5.2.2 
+redux                                  | 4.2.1
+firebase                               | 10.5.0
+sass                                   | 1.69.3 
 
 ####React wrapper packages
 These packages are all react component wrappers\
@@ -35,10 +35,10 @@ come with pre-built functionality.
 
 package names                          |version
 ---------------------------------------|------------------------
-react-firebase-hooks                   | 5.0.3 
-react-redux                            | 7.2.6  
-react-i18next                          | 11.15.7  
-react-leaflet                          | 3.2.5 
+react-firebase-hooks                   | 5.1.1 
+react-redux                            | 8.1.3 
+react-i18next                          | 13.3.0  
+react-leaflet                          | 4.2.1 
 
 ####Packages used to complete or integrate functionality
 The following packages are needed for the main operations of the app.\
@@ -48,10 +48,10 @@ package names                          |version
 ---------------------------------------|------------------------
 i18next                                | 21.6.14 
 nosleep.js                             | 0.12.0 
-leaflet                                | 1.7.1 
-react-modal                            | 3.14.4 
-react-toastify                         | 8.2.0 
-recharts                               | 2.1.9 
+leaflet                                | 1.9.4 
+react-modal                            | 3.16.1 
+react-toastify                         | 9.1.3 
+recharts                               | 2.8.0
 
 #####i18next
 This is the translation packages. Has lots of good reviews, loads of downloads and tutorials.\
@@ -82,9 +82,9 @@ For the icons i have used font awesome because the package is widely used and ab
 
 font awesome packages                  |version
 ---------------------------------------|------------------------
-@fortawesome/fontawesome-svg-core      | 1.3.0
-@fortawesome/free-brands-svg-icons     | 6.0.0
-@fortawesome/free-solid-svg-icons      | 6.0.0
+@fortawesome/fontawesome-svg-core      | 6.4.2
+@fortawesome/free-brands-svg-icons     | 6.4.2
+@fortawesome/free-solid-svg-icons      | 6.4.2
 @fortawesome/react-fontawesome         | 0.1.17
 font-awesome                           | 4.7.0                                  
                                        
@@ -92,7 +92,7 @@ font-awesome                           | 4.7.0
 
 state management extra packages        |version
 ---------------------------------------|------------------------
-@reduxjs/toolkit                       | 1.7.2
+@reduxjs/toolkit                       | 1.9.7
                                
  
 ###testing libraries
